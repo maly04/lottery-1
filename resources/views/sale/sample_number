@@ -1,0 +1,127 @@
+<div class="colume_style">
+	<div class="colume_style" id="">
+		<div class="remove_row_style">
+			<i class="fa fa-minus-square txt-color-red" aria-hidden="true"></i>
+		</div>
+	</div>
+		            			<div class="pos_style">4P</div>
+		            			<div class='row_main'>
+		            				<div class="number_lot lot_int">551</div>
+		            				<div class="symbol_lot lot_int">x</div>
+		            				<div class="amount_lot lot_int"><?php echo number_format('50000000');?></div>
+		            				<div class="clear"></div>
+		            			</div>
+		            			<div class='row_main'>
+		            				<div class="number_lot lot_int">51</div>
+		            				<div class="symbol_lot lot_int"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+		            				<div class="amount_lot lot_int"><?php echo number_format('10000000');?></div>
+		            				<div class="clear"></div>
+		            			</div>
+		            			<div class='row_main'>
+		            				<div class="number_lot lot_int">62</div>
+		            				<div class="symbol_lot lot_int">-</div>
+		            				<div class="amount_lot lot_int"><?php echo number_format('20000');?></div>
+		            				<div class="clear"></div>
+		            			</div>
+		            			<div class='row_main'>
+		            				<div class="number_lot lot_int">89</div>
+		            				<div class="symbol_lot lot_int">-</div>
+		            				<div class="amount_lot lot_int"><?php echo number_format('3000');?></div>
+		            				<div class="clear"></div>
+		            			</div>
+		            			<div class='row_main'>
+		            				<div class="number_lot lot_int">09</div>
+		            				<div class="clear"></div>
+		            				<div class="number_lot lot_int clear_margin">
+		            					|
+		            					<div class="sym_absolube"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+		            					<div class=" lot_int sym_absolube_amount"><?php echo number_format('20000');?></div>
+		            				</div>
+		            				<div class="clear"></div>
+		            				<div class="number_lot lot_int">99</div>
+		            				<div class="clear"></div>
+		            			</div>
+		            			<div class='row_main'>
+		            				<div class="number_lot lot_int">109</div>
+		            				<div class="clear"></div>
+		            				<div class="number_lot lot_int clear_margin">
+		            					|
+		            					<div class="sym_absolube"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+		            					<div class=" lot_int sym_absolube_amount"><?php echo number_format('2000');?></div>
+		            				</div>
+		            				<div class="clear"></div>
+		            				<div class="number_lot lot_int">199</div>
+		            				<div class="clear"></div>
+		            			</div>
+		            			<div class='row_main'>
+		            				<div class="number_lot lot_int">109</div>
+		            				<div class="symbol_lot lot_int">x</div>
+		            				<div class="clear"></div>
+		            				<div class="number_lot lot_int clear_margin">
+		            					|
+		            					<div class="sym_absolube"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+		            					<div class=" lot_int sym_absolube_amount"><?php echo number_format('2000');?></div>
+		            				</div>
+		            				<div class="clear"></div>
+		            				<div class="number_lot lot_int">199</div>
+		            				<div class="symbol_lot lot_int">x</div>
+		            				<div class="clear"></div>
+		            			</div>
+		            			<div class='row_main'>
+		            				<div class="number_lot lot_int">00</div>
+		            				<div class="symbol_lot lot_int">x</div>
+		            				<div class="clear"></div>
+		            				<div class="number_lot lot_int clear_margin">
+		            					|
+		            					<div class="sym_absolube"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+		            					<div class=" lot_int sym_absolube_amount"><?php echo number_format('2000');?></div>
+		            				</div>
+		            				<div class="clear"></div>
+		            				<div class="number_lot lot_int">09</div>
+		            				<div class="symbol_lot lot_int">x</div>
+		            				<div class="clear"></div>
+		            			</div>
+
+		            			<!-- form add lottery -->
+		            			<div class='row_main custom_padding' id="event_add_in_row_1">
+		            				<div class="lottery_num pos_style formAddGroup">
+		            					<select id="pos_id_add" name="pos_id_add" class="formlottery_select">
+		            						<option value="">ប៉ុស</option>
+		            						@foreach($groups as $group)
+		            						<option value="{{ $group->g_id }}">{{ $group->g_name }}</option>
+		            						@endforeach
+		            					</select>
+		            				</div>
+		            				<div class="clear"></div>
+		            				<div class="lottery_num">
+		            					{!! Form::text("num_number_add", $value = null, $attributes = array( 'id' => 'num_number_add', 'class'=>'form-control formlottery', 'placeholder'=>'លេខ')) !!}
+		            				</div>
+		            				<div class="lottery_num_select">
+		            					<select id="sym_id_add" name="sym_id_add" class="formlottery_select">
+		            						<option value="-">-</option>
+		            						<option value=">">></option>
+		            						<option value="->">-></option>
+		            					</select>
+		            				</div>
+		            				<div class="lottery_num">
+		            					{!! Form::text("num_number_end_add", $value = null, $attributes = array( 'id' => 'num_number_end_add', 'class'=>'form-control formlottery', 'placeholder'=>'លេខ')) !!}
+		            				</div>
+		            				<div class="lottery_num main_checkbo">
+		            					<span>គុណ</span>
+		            					<input type="checkbox" id="num_reverse_add" name="num_reverse_add"​ class="check_style">
+		            				</div>
+		            				<div class="lottery_num main_price">
+		            					{!! Form::text("num_number_end_add", $value = null, $attributes = array( 'id' => 'num_number_end_add', 'class'=>'form-control formlottery', 'placeholder'=>'លេខ')) !!}
+		            				</div>
+		            				<div class="btnSave">
+		            					<button type="button" id="saveLotteryAdd" name="saveLottery" class="btn btn-xs btn-primary">Save</button>
+		            				</div>
+		            				<div class="clear"></div>
+		            			</div>
+		            			<!-- end form add lottery -->
+
+
+		            		</div>
+		            		<div class="btn_add_colume addNewRowNumber" page_id='{{$sale->p_id}}' page_time='{{$sale->p_time}}'>
+		            			<i class="fa fa-fw fa-plus-circle txt-color-green" aria-hidden="true"></i>
+		            		</div>

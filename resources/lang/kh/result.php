@@ -1,0 +1,38 @@
+<?php
+return [
+    'id' => 'លេខរៀង',
+    'date' => 'កាលបរិច្ឆេទ',
+    'shift' => 'ពេល',
+    'actioin'   =>  'សកម្មភាព',
+    'result'    =>  'កំណត់លទ្ធផលចេញ',
+    'view'      =>  'មើល',
+    'new'    =>  'ថ្មី',
+    'pos'   =>  'ប៉ុស្តិ៍',
+    'addResult' =>  'កំណត់លទ្ធផល',
+    'filter'    =>  'ស្វែងរក',
+    'chooseShift'  =>  'ជ្រើសរើសពេល',
+    'pleaseChooseShift' =>  'សូមជ្រើសសន្លឹក',
+    'pleaseChooseDate'  =>  'សូមជ្រើសកាលបរិច្ឆេទ',
+    'resultCreateAlready'   =>  'លទ្ធផលបានបង្កើតរួចទៅហើយ',
+    'price2digits' => 'សូមបញ្ចូលតំលៃ ២​ ខ្ទង់',
+    'price3digits' => 'សូមបញ្ចូលតំលៃ​ ៣​ ខ្ទង់',
+    'save'  =>  'រក្សាទុកការ',
+    'update'    =>  'កែសម្រួល',
+    'delete'    =>  'លុប',
+    'resultModify' => 'កែប្រែលទ្ធផល',
+    'resultDisplay' => 'បង្ហាញលទ្ធផល',
+    'doYouWantToDelete' => 'តើអ្នកចង់លុប?',
+    'doYouWantToCancel' =>  'លោកអ្នកចង់ត្រលប់ក្រោយឬទេ?',
+    'chooseStaff'  =>  'រើសពបុគ្គលិក',
+    'pleaseChooseStaff' =>  'សូមជ្រើសបុគ្គលិក',
+    'pleaseChooseCode'  =>  'សូមជ្រើសកូដ',
+    'pleaseChoosePage'  =>  'សូមជ្រើសទំព័រ',
+    'chooseCode'  =>  'រើសកូដ',
+    'choosePage'  =>  'រើសទំព័រ',
+    'dateStart' =>  'ថ្ងៃចាប់ផ្តើម',
+    'dateEnd'   =>  'ថ្ងៃបញ្ចប់',
+    'resultDisplay' => 'បង្ហាញលទ្ធផល',
+    'addResult' =>  'កំណត់លទ្ធផល'
+
+]
+    ?>

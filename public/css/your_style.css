@@ -1,0 +1,386 @@
+/*
+ * It is advised not to edit the smartadmin_production.css
+ * as this will override any changes you make in the 
+ * later versions of this theme. 
+ * 
+ * We advise that you use use this CSS to override 
+ * SmartAdmin styles. 
+ * 
+ * Rename the stylesheet to whatever your liking so it will stay
+ * unique to you with each update of SmartAdmin.
+ */
+
+/*
+ * INDEX
+ * 
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+
+/**, h1, h2, h3, h4, h5, h6{
+    font-family: 'Hanuman', serif;
+}*/
+
+ .smart-form .select select{
+ 	padding-top: 2px !important;
+ 	padding-bottom: 2px; 
+ }
+ .control_width{
+ 	overflow: scroll;
+ }
+
+.ui-dialog .ui-dialog-titlebar-close{
+    right: 1.3em !important;
+    top: 70% !important;
+}
+.ui-dialog .ui-dialog-titlebar-close span{
+    margin: -8px !important;
+}
+.ui-dialog-titlebar-close{
+    border: none !important;
+    background: none !important;
+}
+
+.ui-icon-closethick{
+    background-position:0px !important;
+}
+.ui-helper-clearfix::after{
+    height: 20px;
+}
+
+.ui-dialog .ui-dialog-content{
+    padding: 0px !important;
+}
+#dialogmodifynumber{
+    font-family: "Bayon";
+    font-size: 14px;
+}
+#dialogmodifynumber h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.modify_number_style{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.backgroundColor{
+    background-color: #ccc !important;
+}
+/*end */
+
+.stylebtninsection{
+    padding: 5px 15px;
+    margin-top: 25px;
+}
+.paperStyle{
+    /*width: calc(100% - 40px);*/
+    width: 1300px !important;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    /*border: 1px #ccc solid;*/
+}
+.boder{
+    border:1px #ccc solid;
+    margin-bottom: 20px;
+}
+
+.row_main.custom_padding.smart-form{
+    visibility: hidden;
+}
+
+.colume_style{
+    border-right: 1px #ccc solid;
+    /*height: 700px;*/
+    width: 161px;
+    /*float: left;*/
+    position: relative;
+    display: table-cell;
+}
+.colume_style:last-child {
+    border-right: 0px;
+}
+
+.colume_style:hover .row_main.custom_padding.smart-form{
+    visibility: visible;
+}
+
+.pos_style{
+    border-bottom: 1px #ccc solid;
+    width: 50%;
+    margin: 0 auto;
+
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    padding-top: 10px;
+
+}
+
+.row_main{
+    width: 100%;
+    padding: 0px 10px;
+    position: relative;
+}
+/*.row_main:first-child{
+    padding-top: 5px;
+}*/
+.clear {
+    clear: both;
+}
+.lot_int{
+    float: left;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+}
+.number_lot, .amount_lot,.symbol_lot{
+    width: 25%;
+    position: relative;
+}
+.symbol_lot{
+    width: 20%;
+    font-size: 16px;
+    margin-top: -1px;
+
+}
+.symbol_lot i{
+    font-size: 25px;
+    margin-top: -2px !important;
+}
+.amount_lot{
+    width: 55%;
+    /*background-color: red;*/
+}
+.symbol_lot{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.clear_margin{
+    margin: 0px !important;
+    padding: 0px !important;
+    line-height: 10px;
+    padding-left: 5px !important;
+}
+.sym_absolube{
+    position: absolute;
+    left: 40px;
+    top: -10px;
+    font-size: 30px;
+}
+.sym_absolube_amount{
+    position: absolute;
+    left: 63px;
+    top: 0px;
+}
+.btn_add_colume{
+    font-size: 14px;
+    padding-left: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+    display: table-cell;
+}
+.btn_add_colume i{
+    font-size: 25px;
+}
+.custom_padding{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.lottery_num{
+    width: 29%;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.lottery_num_select{
+    width: 30%;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+
+}
+.formlottery{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    font-size: 14px !important;
+    height: 19px;
+}
+.lottery_num span{
+    font-family: "Bayon";
+    font-size: 14px;
+    vertical-align:text-bottom;
+}
+.formlottery_select{
+    padding-left: 2px;
+    padding-right: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 20px !important;
+    font-family: "monospace";
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: 25px;
+}
+
+.customCurrency{
+    font-size: 15px !important;
+    font-weight: bold;
+    width: 100% !important;
+}
+.customStyleCurrency{
+    width: 22% !important;
+}
+
+.main_checkbo{
+    width: 28%;
+    float: left;
+    margin-right: 4px;
+}
+.main_checkbo span{
+    font-size: 13px;
+}
+.check_style{
+    width: 15px;
+    height: 15px;
+}
+.main_price{
+    width: 41%;
+    margin-right: 4px;
+    float: left;
+}
+.btnSave{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+.formAddGroup{
+    float: none !important;
+    margin: 0 auto;
+    width: 100% !important;
+}
+.formAddGroup select{
+    width: 65% !important;
+    font-size: 16px !important;
+}
+.remove_row_style{
+    position: absolute;
+    right: -6px;
+    top: -6px;
+    cursor: pointer;
+    z-index: 888;
+    visibility: hidden;
+}
+.remove_row_style i{
+    font-size: 17px;
+}
+
+.colume_style:hover .remove_row_style{
+    visibility: visible;
+}
+.col_text{
+    text-align: center;
+}
+.col_text_right{
+    text-align: right;
+}
+.col_staff{
+    width:150px !important;
+}
+.table-report thead th{
+    background-color:#d3d1d1 !important;
+}
+aside,#ribbon{
+    background: #050830  !important;
+}
+.jarviswidget-color-blueDark > header{
+    background: #050830  !important;
+}
+.login-info{
+    border-width: 0px !important;
+}
+#demo-setting{
+    display: none;
+}
+.page-footer{
+    background: #050830  !important;
+}
+.login-info > span{
+    border-bottom: 1px solid #050830  !important;
+}
+.login-info a{
+    color: #fff !important;
+}
+nav ul li a{
+    color: #fff !important;
+}
+.optionNumber{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 99;
+    display: none;
+}
+.optionNumber i{
+    cursor: pointer;
+    font-size: 14px;
+    padding-left:2px;
+    /*font-weight: bold;*/
+    cursor: pointer;
+    /*text-shadow: -1px 1px 1px #000;*/
+}
+.row_main:hover{
+    background-color: #ccc;
+}
+.row_main:hover .optionNumber{
+    display: block;
+}
+
+/*new style for number page sale*/
+.display_total_number{
+    position: absolute;
+    left: 29px;
+    top: 16px;
+    /*padding: 2px;*/
+    font-size: 10px !important;
+    border: 1px #990012 solid;
+    color: #990012;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    /*padding-top: 2px;*/
+    border-radius: 50% 50% 50% 50%;
+    -moz-border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+}
+
+.row_main.actived{
+    background-color:#990012 !important;
+    border-top:1px solid #fff !important;
+}
+
+.row_main.actived .lot_int{
+    color: #fff !important;
+}
+.row_main.actived .display_total_number{
+    color:#fff !important;
+    border:1px solid #fff !important;
+}
+
+.row_main:nth-child(odd) {
+    background: #fff;
+}
+.row_main:nth-child(even) {
+    background: #eeefee;
+    /*border-top: 1px #ccc solid;
+    border-bottom: 1px #ddd solid;*/
+}
+

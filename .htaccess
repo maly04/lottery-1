@@ -1,0 +1,12 @@
+#<IfModule mod_rewrite.c>
+#    RewriteEngine On
+
+#    RewriteBase /
+# RewriteCond %{HTTP_HOST} !^188.166.234.165/lottery$ [NC]
+# RewriteRule ^(.*)$ http://188.166.234.165/lottery/$1 [L,R=301]
+
+#    RewriteCond %{REQUEST_URI} !^public 
+#    RewriteRule ^(.*)$ public/$1 [L]
+
+    
+#</IfModule>
